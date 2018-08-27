@@ -25,6 +25,7 @@
     "test:watch": "nodemon --exec 'npm test' -w src/",
     "prepublish": "npm run build"
   },
+  "install": "npm run build",
   "repository": {
     "type": "git",
     "url": "git@github.com:gunar/medium-parser.git"
